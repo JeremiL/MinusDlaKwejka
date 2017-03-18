@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Minus dla kwejka",
+  "description": "Przywraca przycisk minus na kwejku",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://kwejk.pl/*","https://kwejk.pl/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
